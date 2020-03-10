@@ -2,8 +2,10 @@
 /* let week = prompt("Please enter the day:");
 
 let work = ["monday", "tuesday", "wednesday", "thursday", "friday"];
+work.toLowerCase()
 
 let weekend = ["saturday", "sunday"];
+weekend.toLowerCase()
 
 if (work.includes(week)){
     alert("Working Day")
@@ -23,28 +25,15 @@ let work = ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
 let weekend = ["saturday", "sunday"];
 
-switch (week){
+switch (week.toLowerCase()){
     case "monday":
-        alert("Working day")
-        break;
     case "tuesday":
-        alert("Working day")
-        break;
     case "wednesday":
-        alert("Working day")
-        break;
     case "thursday":
-        alert("Working day")
-        break;
-    case "tuesday":
-        alert("Working day")
-        break;
     case "friday":
         alert("Working day")
         break;
     case "saturday":
-        alert("Weekend")
-        break;
     case "sunday":
         alert("Weekend")  
         break;
